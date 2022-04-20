@@ -1,0 +1,27 @@
+[2022-04-20 16:47:33] local.ERROR: syntax error, unexpected 'class' (T_CLASS), expecting ';' or ',' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected 'class' (T_CLASS), expecting ';' or ',' at C:\\xampp\\htdocs\\test_josega\\app\\Providers\\AppServiceProvider.php:8)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\test_josega\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\A...')
+#2 C:\\xampp\\htdocs\\test_josega\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(690): spl_autoload_call('App\\\\Providers\\\\A...')
+#3 C:\\xampp\\htdocs\\test_josega\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(624): Illuminate\\Foundation\\Application->resolveProvider('App\\\\Providers\\\\A...')
+#4 C:\\xampp\\htdocs\\test_josega\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register('App\\\\Providers\\\\A...')
+#5 C:\\xampp\\htdocs\\test_josega\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(604): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 C:\\xampp\\htdocs\\test_josega\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 C:\\xampp\\htdocs\\test_josega\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 C:\\xampp\\htdocs\\test_josega\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 C:\\xampp\\htdocs\\test_josega\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 C:\\xampp\\htdocs\\test_josega\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2022-04-20 17:22:54] local.ERROR: Cannot use Notifiable as Notifiable because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use Notifiable as Notifiable because the name is already in use at C:\\xampp\\htdocs\\test_josega\\app\\User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-20 17:45:25] local.ERROR: Cannot use Notifiable as Notifiable because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use Notifiable as Notifiable because the name is already in use at C:\\xampp\\htdocs\\test_josega\\app\\User.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-20 17:45:28] local.ERROR: Cannot use Notifiable as Notifiable because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use Notifiable as Notifiable because the name is already in use at C:\\xampp\\htdocs\\test_josega\\app\\User.php:8)
+[stacktrace]
+#0 {main}
+"} 
